@@ -66,7 +66,7 @@ $\underbrace{arg\_min}_{\boldsymbol{W}\in\mathbb{R}^{N_r * N_o}}\frac{1}{2}\para
 
 which have closed form solution:
 
-- $W = (X^{T}X + \lambda I)^{-1} X^{T}t$
+$W = (X^{T}X + \lambda I)^{-1} X^{T}t$
 
 #### MSE and MRSE formular
 $MSE = <\parallel t - z \parallel^{2}>$, where <.> indicates average over time, t and z are target and predicted value respectively.
