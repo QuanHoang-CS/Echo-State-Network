@@ -62,7 +62,7 @@ When an ESN model instance is initialized, it does the following steps
 
 The problem is represented as: 
 
-- $\underbrace{arg\_min}_{\boldsymbol{W}\in\mathbb{R}^{N_r * N_o}}\frac{1}{2}\parallel XW - t\parallel^{2} + \frac{\lambda}{2}\parallel W\parallel^{2}$
+$\underbrace{arg\_min}_{\boldsymbol{W}\in\mathbb{R}^{N_r * N_o}}\frac{1}{2}\parallel XW - t\parallel^{2} + \frac{\lambda}{2}\parallel W\parallel^{2}$
 
 which have closed form solution:
 
